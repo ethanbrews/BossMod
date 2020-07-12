@@ -1,16 +1,12 @@
-# Fabric Example Mod - Kotlin
+# Boss Mod (Needs a new name)
 
 ## Setup
 
-0. Create a new mod repository by pressing the "Use this template" button and clone the created repository.
+0. Clone this repository
+1. Run `./gradlew genSources`
+2. Import build.gradle file with IntelliJ IDEA
+3. Restart Intellij to reload the configurations
+4. Run
 
-1. Import build.gradle file with IntelliJ IDEA
-
-2. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-3. Run!
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## About
+It adds bosses
