@@ -31,7 +31,7 @@ object NewGuardianFightCommand {
         val guardian = GuardianEntity(EntityInit.GUARDIAN_ENTITY, target.world)
         target.world.spawnEntity(guardian)
         guardian.teleport(target.x, target.y, target.z)
-        guardian.FightCenterPosition = target.blockPos
+        guardian.setFightCenterPosition(target.blockPos)
         return 0
     }
 }
